@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
   <title>Saif Mohammed</title>
   <meta name="description" content="Saif Mohammed - Machine Learning Engineer specializing in Deep Learning, Computer Vision, and AI Research. View my projects, skills, and experience.">
   <meta name="keywords" content="Machine Learning, Deep Learning, AI, Computer Vision, Python, TensorFlow, PyTorch, Saif Mohammed">
@@ -12,11 +16,21 @@
   <meta property="og:description" content="Portfolio showcasing Machine Learning projects, AI research, and technical expertise in Deep Learning and Computer Vision.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://saifmohammed22.github.io">
-  <meta property="og:image" content="images/profile-photo.jpeg">
+  <meta property="og:image" content="assets/images/profile-photo.jpeg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Saif Mohammed - Machine Learning Engineer & AI Researcher">
   <meta name="twitter:description" content="Portfolio showcasing Machine Learning projects, AI research, and technical expertise.">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Instant theme load to prevent flash
+    (function() {
+      const saved = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (saved === 'dark' || (!saved && prefersDark)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
 </head>
 
 <body>
@@ -39,13 +53,14 @@
       </div>
       <div class="hero-image">
         <div class="profile-container">
-          <img src="images/profile-photo.jpeg" alt="Saif Mohammed" class="profile-photo">
+          <img src="assets/images/profile-photo.jpeg" alt="Saif Mohammed" class="profile-photo">
         </div>
       </div>
     </div>
     <nav class="main-nav">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
+      <a href="#blog">Blog</a>
       <a href="#contact">Contact</a>
     </nav>
     <div class="scroll-indicator">
@@ -59,11 +74,11 @@
       <h2>About Me</h2>
       <div class="about-container">
         <div class="profile-image">
-          <img src="images/profile-photo.jpeg" alt="Saif Mohammed">
+          <img src="assets/images/profile-photo.jpeg" alt="Saif Mohammed">
         </div>
         <div class="about-content">
           <p>
-            I'm a passionate Engineer with a strong background in Machine Learning, Deep Learning, and their intersection with healthcare.
+            I'm a passionate Engineering student with a strong background in Machine Learning, Deep Learning, and their intersection with healthcare.
             I love solving real-world problems with data-driven approaches and intuitive design. Super interested in Computer Vision, NLP, and LLMs.
           </p>
           
@@ -74,9 +89,9 @@
           
           <h3>Skills</h3>
           <ul>
-            <li><strong>Programming Languages:</strong> Python (Proficient, +2 years), Java (Familiar, 3 months), C++ (Familiar, 3 months)</li>
+            <li><strong>Programming Languages:</strong> Python (Proficient), Java, C++, Bash, JavaScript</li>
             <li><strong>Libraries & Frameworks:</strong> Pytorch, TensorFlow, NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn</li>
-            <li><strong>Other:</strong> Git, Github, Linux, Docker, CI/CD, LaTeX, Markdown</li>
+            <li><strong>Other:</strong> Git, Github, Linux, Docker, CI/CD, LaTeX</li>
           </ul>
           
           <h3>Experience</h3>
@@ -84,21 +99,21 @@
             <li>
               <strong>AI Developer Intern</strong> - Siemens EDA<br>
               <em>July 2025 - August 2025</em><br>
-              Working on AI testcase generator for Hardware-Assisted Verification (HAV) platform.
+              Implemented AI-driven functionality for Siemens’ tools using APIs, RAG System, large language models (LLMs), and
+              prompt engineering.
             </li>
-          </ul>
-
-          <h3>Certificates</h3>
-          <ul class="certificates-list">
-            <li><strong>Supervised Machine Learning: Regression and Classification</strong> - Aug 8, 2024</li>
-            <li><strong>Advanced Learning Algorithms</strong> - Dec 20, 2024</li>
           </ul>
 
           <h3>Awards</h3>
           <ul class="award-list">
             <li><strong>Nasa Space Apps Cairo Local Winners</strong> - Oct 10, 2024</li>
+            <li><strong>4th Place – Undergraduate Engineering Mathematics Research Forum
+                        Cairo University – Technical Center for Career Development (TCCD)</strong> - Dec 2024</li>
           </ul>
         </div>
+      </div>
+      <div class="resume-button-container">
+        <a href="assets/Saif_Mohammed_resume.pdf" class="btn btn-primary" target="_blank">View My Resume</a>
       </div>
     </section>
            
@@ -109,16 +124,40 @@
       <p class="section-subtitle">Here are some of my recent projects that showcase my skills and passion for AI</p>
       
       <div class="projects-grid">
+        <div class="project project-research">
+          <div class="project-header">
+            <h3>Seq2Seq Model From Scratch</h3>
+            <p class="project-meta">Paper Implementation | Deep Learning, Sequence Models, LSTM</p>
+          </div>
+          <p class="project-description">
+            Implemented a Seq2Seq architecture based on Sutskever et al.'s paper "Sequence to Sequence Learning with Neural Networks".
+          </p>
+          <ul class="project-highlights">
+            <li>Developed an English–French translation system using this architecture with robust data preprocessing.</li>
+            <li>Trained on Eng–Fra parallel 34,802 pairs corpus achieving 38.32 BLEU score.</li>
+            <li>Achieved 172.75 sentences/sec inference speed.</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-tag">Deep Learning</span>
+            <span class="tech-tag">Seq2Seq</span>
+            <span class="tech-tag">LSTM</span>
+            <span class="tech-tag">NLP</span>
+            <span class="tech-tag">Research</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/SaifMohammed22/seq2seq-model-implementation.git" target="_blank" class="project-link">View on GitHub</a>
+          </div>
+        </div>
+      </div>
         <div class="project project-featured">
           <div class="project-header">
-            <div class="project-badge">Featured</div>
             <h3>Keras OpenVINO Contribution</h3>
             <p class="project-meta">Open Source | Python, Keras, OpenVINO</p>
           </div>
           <p class="project-description">
             Enhanced Keras' OpenVINO Backend by implementing support for the <code>numpy.dot</code> operation. 
             Authored and merged pull request <a href="https://github.com/keras-team/keras/pull/20982" target="_blank">#20982</a> 
-            that added robust dot functionality, resulting in improved compatibility and streamlined model execution.
+            that added the dot functionality, resulting in improved compatibility.
           </p>
           <div class="project-tech">
             <span class="tech-tag">Python</span>
@@ -128,13 +167,11 @@
           </div>
           <div class="project-links">
             <a href="https://github.com/keras-team/keras/pull/20982" target="_blank" class="project-link">View Pull Request</a>
-            <a href="https://github.com/keras-team/keras" target="_blank" class="project-link secondary">GitHub Repo</a>
           </div>
         </div>
         
         <div class="project project-research">
           <div class="project-header">
-            <div class="project-badge">Research</div>
             <h3>Alzheimer's Disease Modeling with PINNs</h3>
             <p class="project-meta">Collaborative Research Project | Machine Learning, Partial Differential Equations</p>
           </div>
@@ -159,7 +196,6 @@
         </div>
         <div class="project project-ml">
           <div class="project-header">
-            <div class="project-badge">DL</div>
             <h3>Cars Model Classification</h3>
             <p class="project-meta">GitHub | Deep Learning, Fine-tuning, MobileNetV2</p>
           </div>
@@ -172,7 +208,7 @@
           </ul>
           <div class="project-tech">
             <span class="tech-tag">Deep Learning</span>
-            <span class="tech-tag">Transfer Learning</span>
+            <span class="tech-tag">Fine-tuning</span>
             <span class="tech-tag">MobileNetV2</span>
             <span class="tech-tag">Stanford Cars</span>
           </div>
@@ -180,6 +216,20 @@
             <a href="https://github.com/SaifMohammed22/Car-Classification.git" class="project-link">View on GitHub</a>
           </div>
         </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section-anchor">
+      <h2>Latest Posts</h2>
+      <p class="section-subtitle">Thoughts on AI, Machine Learning, Deep Learning, and my engineering journey</p>
+      
+      <div id="blog-preview" class="blog-preview-grid">
+        <!-- Blog posts will be loaded here by JavaScript -->
+        <div class="loading">Loading posts...</div>
+      </div>
+      
+      <div class="blog-cta">
+        <a href="blog.html" class="btn btn-secondary">View All Posts →</a>
       </div>
     </section>
 
@@ -191,7 +241,7 @@
       <div class="contact-container">
         <div class="contact-info">
           <h3>Let's Connect</h3>
-          <p>I'm passionate about AI, Machine Learning, and solving real-world problems. Whether you have a project idea, want to collaborate, or just want to say hello, I'd love to hear from you!</p>
+          <p>Whether you have a project idea, want to collaborate, or just want to say hello, I'd love to hear from you!</p>
           
           <div class="contact-methods">
             <div class="contact-method">
@@ -243,13 +293,20 @@
   </main>
 
   <footer>
-    <p>© 2025 Saif Mohammed. All rights reserved.</p>
+    <p>© 2026 Saif Mohammed. All rights reserved.</p>
     <div class="social-links">
       <a href="https://linkedin.com/in/saif-mohammed-ali" target="_blank">LinkedIn</a> • 
       <a href="https://github.com/SaifMohammed22" target="_blank">GitHub</a> • 
       <a href="mailto:ssaifmohammed04@gmail.com">Email</a>
     </div>
   </footer>
-  <script src="script.js"></script>       
+
+  <!-- Dark Mode Toggle -->
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+    <span class="icon-sun">☀️</span>
+    <span class="icon-moon">🌙</span>
+  </button>
+
+  <script src="js/script.js"></script>       
 </body>
 </html> 
