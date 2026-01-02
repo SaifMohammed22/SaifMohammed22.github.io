@@ -406,7 +406,7 @@ async function loadMarkdownPost(filePath) {
 // Fetch all blog posts
 async function fetchBlogPosts() {
   try {
-    const response = await fetch('blog-posts.json');
+    const response = await fetch('/blog-posts.json');
     if (!response.ok) throw new Error('Failed to load posts index');
     const postsIndex = await response.json();
     
