@@ -37,7 +37,10 @@
   <script>
     // Instantly hide blog list if viewing a post (prevents flash)
     if (window.location.hash) {
-      document.write('<style>#blog-list{display:none}</style>');
+      const style = document.createElement('style');
+      style.id = 'hide-blog-list-style';
+      style.textContent = '#blog-list{display:none}';
+      document.head.appendChild(style);
     }
   </script>
   <header>

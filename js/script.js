@@ -240,7 +240,8 @@ document.addEventListener('DOMContentLoaded', () => {
 // ===== DARK MODE TOGGLE =====
 function initThemeToggle() {
   const toggle = document.getElementById('theme-toggle');
-  if (!toggle) return;
+  if (!toggle || toggle.dataset.initialized) return;
+  toggle.dataset.initialized = 'true';
 
   // Check for saved theme preference or system preference
   const savedTheme = localStorage.getItem('theme');
@@ -600,7 +601,14 @@ function showBlogList() {
   const listSection = document.getElementById('blog-list');
   const postSection = document.getElementById('blog-post-view');
 
-  if (listSection) listSection.classList.remove('hidden');
+  // Remove the injected style tag that hides blog-list on direct post navigation
+  const hideStyle = document.getElementById('hide-blog-list-style');
+  if (hideStyle) hideStyle.remove();
+
+  if (listSection) {
+    listSection.classList.remove('hidden');
+    listSection.style.display = ''; // Clear any inline style
+  }
   if (postSection) postSection.classList.add('hidden');
 
   // Clear URL hash
