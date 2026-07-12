@@ -5,6 +5,7 @@ paginaged: false
 enableRobotsTXT: true
 publishDir: "docs"
 cleanDestinationDir: true
+disableLiveReload: true
 
 author:
   name: "Saif Mohammed"

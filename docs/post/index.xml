@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Saif Mohammed</title>
-		<link>http://localhost:1313/post/</link>
+		<link>https://saifmohammed22.github.io/post/</link>
 		<description>Recent content in Posts on Saif Mohammed</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://saifmohammed22.github.io/post/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Welcome to My Blog</title>
-				<link>http://localhost:1313/post/welcome-to-my-blog/</link>
+				<link>https://saifmohammed22.github.io/post/welcome-to-my-blog/</link>
 				<pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/post/welcome-to-my-blog/</guid>
+				<guid>https://saifmohammed22.github.io/post/welcome-to-my-blog/</guid>
 				<description>Excited to start sharing my thoughts on AI, Machine Learning, and my journey as an engineering student.</description>
 			</item>
 	</channel>

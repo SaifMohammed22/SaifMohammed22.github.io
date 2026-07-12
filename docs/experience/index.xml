@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Experiences on Saif Mohammed</title>
-		<link>http://localhost:1313/experience/</link>
+		<link>https://saifmohammed22.github.io/experience/</link>
 		<description>Recent content in Experiences on Saif Mohammed</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,33 +10,33 @@
 		
 		
 		
-			<atom:link href="http://localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://saifmohammed22.github.io/experience/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Undergraduate Researcher</title>
-				<link>http://localhost:1313/experience/rish/</link>
+				<link>https://saifmohammed22.github.io/experience/rish/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/experience/rish/</guid>
+				<guid>https://saifmohammed22.github.io/experience/rish/</guid>
 				<description>&lt;p&gt;Working on Conformal Prediction for Deep Learning models (e.g., World Models) for robust AI models in the medical field.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Undergraduate Research Assistant</title>
-				<link>http://localhost:1313/experience/cairo-university-research-assistant/</link>
+				<link>https://saifmohammed22.github.io/experience/cairo-university-research-assistant/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/experience/cairo-university-research-assistant/</guid>
+				<guid>https://saifmohammed22.github.io/experience/cairo-university-research-assistant/</guid>
 				<description>&lt;p&gt;Working on longitudinal MRI lesion tracking and registration pipelines for multi-timepoint data, exploring state-of-the-art deep learning pipelines for automated segmentation and tracking of lesions.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>AI Developer Intern</title>
-				<link>http://localhost:1313/experience/siemens-eda-intern/</link>
+				<link>https://saifmohammed22.github.io/experience/siemens-eda-intern/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/experience/siemens-eda-intern/</guid>
+				<guid>https://saifmohammed22.github.io/experience/siemens-eda-intern/</guid>
 				<description>&lt;p&gt;Built LLM-assisted feature and prompt pipeline for internal engineering tool as part of the HAV team.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Autonomous Team Member</title>
-				<link>http://localhost:1313/experience/curt/</link>
+				<link>https://saifmohammed22.github.io/experience/curt/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/experience/curt/</guid>
+				<guid>https://saifmohammed22.github.io/experience/curt/</guid>
 				<description></description>
 			</item>
 	</channel>
