@@ -1,0 +1,57 @@
+baseURL: "https://saifmohammed22.github.io"
+locale: "en-us"
+title: "Saif Mohammed"
+paginaged: false
+enableRobotsTXT: true
+publishDir: "docs"
+
+author:
+  name: "Saif Mohammed"
+  email: "ssaifmohammed04@gmail.com"
+
+params:
+  description: "Deep Learning Research & Engineering"
+  email: "ssaifmohammed04@gmail.com"
+  author:
+    name: "Saif Mohammed"
+    role: "Deep Learning Research & Engineering"
+    bio: "I'm Saif, a Systems and Biomedical Engineering Student at Cairo University. I'm interested in Deep Learning, Science, and Software. At the moment I'm focusing on DL research and engineering and their application in medicine \n"
+    bio2: "Currently, I'm undergraduate researcher at RiSH, working on Conformal Prediction (CP) for Deep Learning models."
+    avatar: "images/profile-photo.jpeg"
+    interests:
+      - "Deep Learning"
+      - "World Models"
+      - "Self-Supervised Learning (SSL)"
+      - "Uncertainty Quantification for DL models"
+    education:
+      - degree: "BSc in Systems & Biomedical Engineering"
+        year: "2027"
+        institution: "Cairo University"
+    social:
+      - icon: "email"
+        url: "mailto:ssaifmohammed04@gmail.com"
+      - icon: "github"
+        url: "https://github.com/SaifMohammed22"
+      - icon: "linkedin"
+        url: "https://linkedin.com/in/saif-mohammed-ali"
+
+menu:
+  main:
+    - name: "About"
+      url: "#about"
+      weight: 1
+    - name: "Experience"
+      url: "#experience"
+      weight: 2
+    - name: "News"
+      url: "#news"
+      weight: 3
+    - name: "Projects"
+      url: "#projects"
+      weight: 4
+    - name: "Writing"
+      url: "#posts"
+      weight: 5
+    - name: "Contact"
+      url: "#contact"
+      weight: 6

@@ -1,0 +1,22 @@
+<section id="news" class="section-container">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-heading">Recent News</h2>
+    </div>
+    <div class="news-list">
+      {{ range where .Site.RegularPages "Section" "news" }}
+      <div class="news-item">
+        <span class="news-date">{{ .Params.date_label }}</span>
+        <span class="news-text">{{ .Content }}</span>
+      </div>
+      {{ end }}
+    </div>
+    {{ with .Site.GetPage "/news" }}
+    {{ if gt (len .RegularPages) 5 }}
+    <div class="see-all">
+      <a href="/news/">See all <i class="fas fa-angle-right"></i></a>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>

@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="single-page">
+  <div class="container">
+    <a href="javascript:history.back()" class="back-link"><i class="fas fa-arrow-left"></i> Back</a>
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+      {{ if .Params.author }}
+      <div class="page-meta">
+        <span>{{ .Params.author }}</span>
+        {{ if .Date }}
+        <span class="middot">&middot;</span>
+        <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+        {{ end }}
+        {{ if .ReadingTime }}
+        <span class="middot">&middot;</span>
+        <span>{{ .ReadingTime }} min read</span>
+        {{ end }}
+      </div>
+      {{ end }}
+    </header>
+    <div class="page-content">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+{{ end }}

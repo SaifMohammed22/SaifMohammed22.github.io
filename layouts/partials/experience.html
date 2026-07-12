@@ -1,0 +1,28 @@
+<section id="experience" class="section-container">
+  <div class="container">
+    <h2 class="section-heading">Experience</h2>
+    <div class="exp-list">
+      {{ range where .Site.RegularPages "Section" "experience" }}
+      <div class="exp-item">
+        {{ if .Params.image }}
+        <div class="exp-image">
+          <img src="{{ .Params.image }}" alt="{{ .Params.company }}" loading="lazy">
+        </div>
+        {{ end }}
+        <div class="exp-body">
+          <div class="exp-header">
+            <h3 class="exp-title">{{ .Title }}</h3>
+            <span class="exp-period">{{ .Params.period }}</span>
+          </div>
+          <div class="exp-company">
+            {{ if .Params.company_url }}<a href="{{ .Params.company_url }}" target="_blank">{{ end }}
+            {{ .Params.company }}
+            {{ if .Params.company_url }}</a>{{ end }}
+          </div>
+          <div class="exp-desc">{{ .Content }}</div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

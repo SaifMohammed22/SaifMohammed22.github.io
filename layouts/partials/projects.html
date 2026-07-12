@@ -1,0 +1,51 @@
+<section id="projects" class="section-container">
+  <div class="container">
+    <h2 class="section-heading">Projects</h2>
+    <div class="project-filters" id="project-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      {{ $tags := slice }}
+      {{ range where .Site.RegularPages "Section" "project" }}
+        {{ range .Params.tags }}
+          {{ $tags = $tags | append . }}
+        {{ end }}
+      {{ end }}
+      {{ range $tags | uniq }}
+      <button class="filter-btn" data-filter="{{ . | urlize }}">{{ . }}</button>
+      {{ end }}
+    </div>
+    <div class="projects-grid" id="projects-grid">
+      {{ range where .Site.RegularPages "Section" "project" }}
+      <article class="project-card" data-tags="{{ range .Params.tags }}{{ . | urlize }} {{ end }}">
+        <div class="project-image">
+          {{ if .Params.image }}
+          <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+          {{ else }}
+          <div class="project-image-placeholder">
+            <i class="fas fa-code"></i>
+          </div>
+          {{ end }}
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">
+            {{ if .Params.external_link }}<a href="{{ .Params.external_link }}" target="_blank">{{ end }}
+            {{ .Title }}
+            {{ if .Params.external_link }}<i class="fas fa-external-link-alt" style="font-size:0.75rem;color:var(--text-muted);margin-left:4px;"></i></a>{{ end }}
+          </h3>
+          <div class="project-desc">{{ .Content }}</div>
+          {{ if .Params.tech }}
+          <div class="project-tech">{{ .Params.tech }}</div>
+          {{ end }}
+          <div class="project-links">
+            {{ if .Params.code_link }}
+            <a href="{{ .Params.code_link }}" class="btn-project" target="_blank"><i class="fab fa-github"></i> Code</a>
+            {{ end }}
+            {{ if .Params.demo_link }}
+            <a href="{{ .Params.demo_link }}" class="btn-project" target="_blank">Demo</a>
+            {{ end }}
+          </div>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>

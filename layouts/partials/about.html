@@ -1,0 +1,61 @@
+<section id="about" class="section-container about-section">
+  <div class="container">
+    <div class="about-content">
+      <div class="profile-row">
+        {{ $avatar := .Site.Params.author.avatar }}
+        <div class="avatar-col">
+          <div class="avatar-wrap">
+            <img src="/{{ $avatar }}" alt="{{ .Site.Params.author.name }}" class="avatar">
+          </div>
+          <h1 class="avatar-name">{{ .Site.Params.author.name }}</h1>
+          <div class="avatar-role">{{ .Site.Params.author.role }}</div>
+        </div>
+        <div class="about-text">
+          <h2 class="about-heading">Salam!</h2>
+          <div class="bio">
+            <p>{{ .Site.Params.author.bio }}</p>
+            <p>{{ .Site.Params.author.bio2 }}</p>
+          </div>
+          <div class="social-row">
+            {{ range .Site.Params.author.social }}
+            <a href="{{ .url }}" target="_blank" rel="noopener">
+              {{ if eq .icon "email" }}<i class="far fa-envelope"></i>
+              {{ else if eq .icon "github" }}<i class="fab fa-github"></i>
+              {{ else if eq .icon "linkedin" }}<i class="fab fa-linkedin"></i>
+              {{ else if eq .icon "google-scholar" }}<i class="ai ai-google-scholar"></i>
+              {{ end }}
+              {{ if eq .icon "email" }}Email
+              {{ else if eq .icon "github" }}GitHub
+              {{ else if eq .icon "linkedin" }}LinkedIn
+              {{ else if eq .icon "google-scholar" }}Scholar
+              {{ else }}{{ .icon | title }}{{ end }}
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      <div class="details-grid">
+        <div class="detail-card">
+          <h3>Interests</h3>
+          <ul class="interest-list">
+            {{ range .Site.Params.author.interests }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        <div class="detail-card">
+          <h3>Education</h3>
+          {{ range .Site.Params.author.education }}
+          <div class="edu-item">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <div class="edu-degree">{{ .degree }}, {{ .year }}</div>
+              <div class="edu-institution">{{ .institution }}</div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
