@@ -13,8 +13,9 @@
         <div class="about-text">
           <h2 class="about-heading">Salam!</h2>
           <div class="bio">
-            <p>{{ .Site.Params.author.bio }}</p>
-            <p>{{ .Site.Params.author.bio2 }}</p>
+            <p>{{ .Site.Params.author.bio | safeHTML }}</p>
+            <p>{{ .Site.Params.author.bio2 | safeHTML }}</p>
+            <p>{{ .Site.Params.author.bio3 | safeHTML }}</p>
           </div>
           <div class="social-row">
             {{ range .Site.Params.author.social }}
