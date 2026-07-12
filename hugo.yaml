@@ -4,6 +4,7 @@ title: "Saif Mohammed"
 paginaged: false
 enableRobotsTXT: true
 publishDir: "docs"
+cleanDestinationDir: true
 
 author:
   name: "Saif Mohammed"

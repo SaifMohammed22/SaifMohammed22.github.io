@@ -3,7 +3,7 @@ title: "Undergraduate Research Assistant"
 company: "Cairo University"
 company_url: "https://cu.edu.eg/Home"
 period: "December 2025 – April 2026"
-weight: 1
+weight: 2
 image: "/images/cufe3.svg"
 ---
 

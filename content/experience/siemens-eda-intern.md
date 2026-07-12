@@ -3,7 +3,7 @@ title: "AI Developer Intern"
 company: "Siemens EDA"
 company_url: "https://www.siemens.com/en-us/company/electronic-design-automation/"
 period: "July 2025 – August 2025"
-weight: 2
+weight: 3
 image: "/images/siemens.svg"
 ---
 
