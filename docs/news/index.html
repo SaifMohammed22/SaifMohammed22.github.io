@@ -15,8 +15,7 @@
   <script>
     (function() {
       const saved = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (saved === 'dark' || (!saved && prefersDark)) {
+      if (saved === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
       }
     })();
@@ -46,13 +45,13 @@
     <div class="list-items">
       
       <article class="list-item">
-        <h2><a href="/news/news-6/">Research Assistant</a></h2>
+        <h2><a href="/news/news-6/">Researcher</a></h2>
         <div class="list-meta">
           <span>Apr 1, 2026</span>
           <span class="middot">&middot;</span>
           <span>1 min read</span>
         </div>
-        <p>Joined RiSH initiative to do research in the field of deep learning in medical field.
+        <p>Joined the RiSH initiative to research deep learning for medical applications.
 </p>
       </article>
       
@@ -74,7 +73,7 @@
           <span class="middot">&middot;</span>
           <span>1 min read</span>
         </div>
-        <p>I Joined IEEE EMBS CUSB as the Head of AI committee.
+        <p>Joined IEEE EMBS CUSB as Head of the AI committee.
 </p>
       </article>
       
@@ -118,7 +117,7 @@
           <span class="middot">&middot;</span>
           <span>1 min read</span>
         </div>
-        <p>We won NASA Space Apps Cairo Hackathon and nominated to the Global competition
+        <p>We won the NASA Space Apps Cairo Hackathon and were nominated for the Global competition.
 </p>
       </article>
       

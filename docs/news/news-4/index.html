@@ -15,8 +15,7 @@
   <script>
     (function() {
       const saved = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (saved === 'dark' || (!saved && prefersDark)) {
+      if (saved === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
       }
     })();
@@ -48,7 +47,7 @@
       
     </header>
     <div class="page-content">
-      <p>We won NASA Space Apps Cairo Hackathon and nominated to the Global competition</p>
+      <p>We won the NASA Space Apps Cairo Hackathon and were nominated for the Global competition.</p>
 
     </div>
   </div>

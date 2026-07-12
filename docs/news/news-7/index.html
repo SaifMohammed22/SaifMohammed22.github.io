@@ -15,8 +15,7 @@
   <script>
     (function() {
       const saved = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (saved === 'dark' || (!saved && prefersDark)) {
+      if (saved === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
       }
     })();
@@ -48,7 +47,7 @@
       
     </header>
     <div class="page-content">
-      <p>I Joined <a href="https://edu.ieee.org/eg-cu-embs/">IEEE EMBS CUSB</a> as the Head of AI committee.</p>
+      <p>Joined <a href="https://edu.ieee.org/eg-cu-embs/">IEEE EMBS CUSB</a> as Head of the AI committee.</p>
 
     </div>
   </div>

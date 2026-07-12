@@ -26,7 +26,7 @@
   --shadow-lg: 0 8px 32px rgba(0,0,0,0.08);
   --code-bg: #f4f2ef;
   --nav-bg: rgba(248, 247, 245, 0.88);
-  --max-width: 720px;
+  --max-width: 800px;
 }
 
 [data-theme="dark"] {
@@ -52,7 +52,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 72px; }
 
 body {
   font-family: var(--font);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.7;
   color: var(--text);
   background: var(--bg);
@@ -132,7 +132,7 @@ header {
 .section-container + .section-container { border-top: 1px solid var(--line-light); }
 
 .section-heading {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 32px;
   letter-spacing: -0.02em;
@@ -173,8 +173,8 @@ header {
 }
 
 .avatar {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   border-radius: 16px;
   object-fit: cover;
   display: block;
@@ -753,31 +753,69 @@ footer {
 .section-container:nth-child(7) { animation-delay: 0.3s; }
 .section-container:nth-child(8) { animation-delay: 0.35s; }
 
+/* List Page
+   ========================================== */
+.list-page { padding: 56px 0; }
+.list-page h1 { font-size: 1.6rem; font-weight: 650; margin-bottom: 32px; letter-spacing: -0.02em; }
+.list-items { display: flex; flex-direction: column; gap: 24px; }
+.list-item { padding-bottom: 24px; border-bottom: 1px solid var(--line-light); }
+.list-item h2 { font-size: 1.1rem; font-weight: 550; }
+.list-item p { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; margin-top: 6px; }
+
 /* Responsive
    ========================================== */
 @media (max-width: 768px) {
   .profile-row { flex-direction: column; align-items: center; text-align: center; gap: 24px; }
   .avatar-col { width: auto; }
-  .avatar { width: 150px; height: 150px; }
+  .avatar { width: 160px; height: 160px; }
   .about-text { text-align: left; }
   .details-grid { grid-template-columns: 1fr; }
   .exp-item { flex-direction: column; }
+  .exp-header { flex-direction: column; align-items: flex-start; gap: 2px; }
   .project-card { flex-direction: column; }
-  .project-image { width: 100%; }
+  .project-image { width: 100%; max-height: 200px; }
+  .project-image img { object-fit: cover; height: 100%; }
   .post-item { flex-direction: column; }
   .post-thumb { display: none; }
   .section-container { padding: 56px 0; }
   .about-section { padding-top: 72px; }
   .social-row { justify-content: center; }
-  .nav-links { overflow-x: auto; gap: 0; }
-  .nav-links a { font-size: 0.78rem; padding: 4px 8px; white-space: nowrap; }
+  .main-nav { padding: 0 16px; }
+  .nav-links { overflow-x: auto; gap: 0; scrollbar-width: none; }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links a { font-size: 0.78rem; padding: 6px 10px; white-space: nowrap; }
   .section-heading { font-size: 1.15rem; }
   .section-heading::after { display: none; }
+  .contact-list li { padding: 4px 0; }
+  .theme-toggle { width: 44px; height: 44px; right: 12px; bottom: 12px; }
+  .filter-btn { padding: 6px 14px; font-size: 0.8rem; }
+  .project-links { flex-wrap: wrap; gap: 8px; }
+  .btn-project { padding: 6px 0; }
+  .list-page { padding: 40px 0; }
+  .list-page h1 { font-size: 1.3rem; margin-bottom: 24px; }
+  .page-header h1 { font-size: 1.4rem; }
+  .single-page { padding: 32px 0; }
 }
 
 @media (max-width: 480px) {
   .container { padding: 0 16px; }
-  .avatar { width: 130px; height: 130px; }
+  .avatar { width: 140px; height: 140px; }
   .profile-card { padding: 20px; gap: 20px; }
   .detail-card { padding: 16px 18px; }
+  .section-container { padding: 40px 0; }
+  .about-section { padding-top: 56px; }
+  .section-heading { font-size: 1.05rem; margin-bottom: 20px; }
+  .project-image { max-height: 160px; }
+  .nav-links a { font-size: 0.75rem; padding: 5px 8px; }
+  .avatar-name { font-size: 1.15rem; }
+  .exp-item { padding: 16px; }
+  .project-card { padding: 16px; }
+}
+
+@media (max-width: 380px) {
+  .container { padding: 0 12px; }
+  .avatar { width: 120px; height: 120px; }
+  .nav-links a { font-size: 0.7rem; padding: 4px 6px; }
+  .detail-card { padding: 12px 14px; }
+  .section-container { padding: 32px 0; }
 }

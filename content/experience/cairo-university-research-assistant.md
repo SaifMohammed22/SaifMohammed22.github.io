@@ -7,4 +7,4 @@ weight: 2
 image: "/images/cufe3.svg"
 ---
 
-Working on longitudinal MRI lesion tracking and registration pipelines for multi-timepoint data, exploring state-of-the-art deep learning pipelines for automated segmentation and tracking of lesions.
+Worked on longitudinal MRI lesion tracking and registration pipelines for multi-timepoint data, exploring state-of-the-art deep learning approaches for automated segmentation and tracking of lesions.

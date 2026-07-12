@@ -15,8 +15,7 @@
   <script>
     (function() {
       const saved = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (saved === 'dark' || (!saved && prefersDark)) {
+      if (saved === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
       }
     })();
@@ -61,7 +60,7 @@
     </header>
     <div class="page-content">
       <p>Hello and welcome to my blog! 👋</p>
-<p>Here is where I will share my thoughts about what I learn and read.</p>
+<p>This is where I&rsquo;ll share my thoughts on what I&rsquo;m learning and reading.</p>
 <p>So, stay tuned!</p>
 
     </div>

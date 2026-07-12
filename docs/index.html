@@ -16,8 +16,7 @@
   <script>
     (function() {
       const saved = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (saved === 'dark' || (!saved && prefersDark)) {
+      if (saved === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
       }
     })();
@@ -56,9 +55,8 @@
         <div class="about-text">
           <h2 class="about-heading">Salam!</h2>
           <div class="bio">
-            <p>I&#39;m Saif, a Systems and Biomedical Engineering Student at Cairo University. I&#39;m interested in Deep Learning, Science, and Software. At the moment I&#39;m focusing on DL research and engineering and their application in medicine 
-</p>
-            <p>Currently, I&#39;m undergraduate researcher at RiSH, working on Conformal Prediction (CP) for Deep Learning models.</p>
+            <p>I&#39;m Saif, a Systems and Biomedical Engineering student at Cairo University. I&#39;m interested in Deep Learning, Science, and Software. At the moment I&#39;m focusing on DL research and engineering and their application in medicine.</p>
+            <p>Currently, I&#39;m an undergraduate researcher at RiSH, working on Conformal Prediction (CP) for Deep Learning models.</p>
           </div>
           <div class="social-row">
             
@@ -83,6 +81,13 @@
               
             </a>
             
+            <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+              
+              Scholar
+              
+            </a>
+            
           </div>
         </div>
       </div>
@@ -97,7 +102,7 @@
             
             <li>Self-Supervised Learning (SSL)</li>
             
-            <li>Uncertainty Quantification for DL models</li>
+            <li>Uncertainty Quantification for DL </li>
             
           </ul>
         </div>
@@ -132,7 +137,7 @@
         <div class="exp-body">
           <div class="exp-header">
             <h3 class="exp-title">Undergraduate Researcher</h3>
-            <span class="exp-period">Apr 2026  – Present</span>
+            <span class="exp-period">Apr 2026 – Present</span>
           </div>
           <div class="exp-company">
             <a href="https://risingsh.github.io/website/" target="_blank">
@@ -160,7 +165,7 @@
             Cairo University
             </a>
           </div>
-          <div class="exp-desc"><p>Working on longitudinal MRI lesion tracking and registration pipelines for multi-timepoint data, exploring state-of-the-art deep learning pipelines for automated segmentation and tracking of lesions.</p>
+          <div class="exp-desc"><p>Worked on longitudinal MRI lesion tracking and registration pipelines for multi-timepoint data, exploring state-of-the-art deep learning approaches for automated segmentation and tracking of lesions.</p>
 </div>
         </div>
       </div>
@@ -198,11 +203,12 @@
             <span class="exp-period">Sep 2024 – Jul 2025</span>
           </div>
           <div class="exp-company">
-            
+            <a href="https://www.linkedin.com/company/cairo-university-racing-team-formula-student/" target="_blank">
             Cairo University Racing Team - Formula Student
-            
+            </a>
           </div>
-          <div class="exp-desc"></div>
+          <div class="exp-desc"><p>Developed perception and control systems for the autonomous vehicle platform, working with ROS and sensor fusion for the Formula Student competition.</p>
+</div>
         </div>
       </div>
       
@@ -217,9 +223,10 @@
     </div>
     <div class="news-list">
       
+      
       <div class="news-item">
         <span class="news-date">[2026.04]</span>
-        <span class="news-text"><p>Joined <a href="https://risingsh.github.io/website/">RiSH</a> initiative to do research in the field of deep learning in medical field.</p>
+        <span class="news-text"><p>Joined the <a href="https://risingsh.github.io/website/">RiSH</a> initiative to research deep learning for medical applications.</p>
 </span>
       </div>
       
@@ -231,7 +238,7 @@
       
       <div class="news-item">
         <span class="news-date">[2025.11]</span>
-        <span class="news-text"><p>I Joined <a href="https://edu.ieee.org/eg-cu-embs/">IEEE EMBS CUSB</a> as the Head of AI committee.</p>
+        <span class="news-text"><p>Joined <a href="https://edu.ieee.org/eg-cu-embs/">IEEE EMBS CUSB</a> as Head of the AI committee.</p>
 </span>
       </div>
       
@@ -247,26 +254,11 @@
 </span>
       </div>
       
-      <div class="news-item">
-        <span class="news-date">[2024.12]</span>
-        <span class="news-text"><p>We got 4th Place in the Undergraduate Engineering Mathematics Research Forum at
-Cairo University</p>
-</span>
-      </div>
-      
-      <div class="news-item">
-        <span class="news-date">[2024.10]</span>
-        <span class="news-text"><p>We won NASA Space Apps Cairo Hackathon and nominated to the Global competition</p>
-</span>
-      </div>
-      
     </div>
-    
     
     <div class="see-all">
       <a href="/news/">See all <i class="fas fa-angle-right"></i></a>
     </div>
-    
     
   </div>
 </section>
@@ -430,8 +422,11 @@ Cairo University</p>
       <h2 class="section-heading">Contact</h2>
     </div>
     <div class="contact-content">
+      <p>Feel free to reach out — I'm always open to discussing research, collaboration, or new opportunities.</p>
       <ul class="contact-list">
         <li><i class="fas fa-envelope"></i> <a href="mailto:ssaifmohammed04@gmail.com">ssaifmohammed04@gmail.com</a></li>
+        <li><i class="fab fa-github"></i> <a href="https://github.com/SaifMohammed22" target="_blank">SaifMohammed22</a></li>
+        <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/saif-mohammed-ali" target="_blank">saif-mohammed-ali</a></li>
       </ul>
     </div>
   </div>

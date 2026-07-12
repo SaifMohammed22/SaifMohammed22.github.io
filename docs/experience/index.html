@@ -15,8 +15,7 @@
   <script>
     (function() {
       const saved = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (saved === 'dark' || (!saved && prefersDark)) {
+      if (saved === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
       }
     })();
@@ -63,7 +62,7 @@
           <span class="middot">&middot;</span>
           <span>1 min read</span>
         </div>
-        <p>Working on longitudinal MRI lesion tracking and registration pipelines for multi-timepoint data, exploring state-of-the-art deep learning pipelines for automated segmentation and tracking of lesions.
+        <p>Worked on longitudinal MRI lesion tracking and registration pipelines for multi-timepoint data, exploring state-of-the-art deep learning approaches for automated segmentation and tracking of lesions.
 </p>
       </article>
       
@@ -83,9 +82,10 @@
         <div class="list-meta">
           <span>Jan 1, 0001</span>
           <span class="middot">&middot;</span>
-          <span>0 min read</span>
+          <span>1 min read</span>
         </div>
-        <p></p>
+        <p>Developed perception and control systems for the autonomous vehicle platform, working with ROS and sensor fusion for the Formula Student competition.
+</p>
       </article>
       
     </div>

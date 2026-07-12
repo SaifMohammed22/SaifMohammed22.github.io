@@ -15,8 +15,7 @@
   <script>
     (function() {
       const saved = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (saved === 'dark' || (!saved && prefersDark)) {
+      if (saved === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
       }
     })();
@@ -48,7 +47,8 @@
       
     </header>
     <div class="page-content">
-      
+      <p>Developed perception and control systems for the autonomous vehicle platform, working with ROS and sensor fusion for the Formula Student competition.</p>
+
     </div>
   </div>
 </article>

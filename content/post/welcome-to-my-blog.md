@@ -8,6 +8,6 @@ author: "Saif Mohammed"
 
 Hello and welcome to my blog! 👋
 
-Here is where I will share my thoughts about what I learn and read.
+This is where I'll share my thoughts on what I'm learning and reading.
 
 So, stay tuned!

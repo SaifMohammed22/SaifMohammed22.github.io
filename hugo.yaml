@@ -17,14 +17,14 @@ params:
   author:
     name: "Saif Mohammed"
     role: "Deep Learning Research & Engineering"
-    bio: "I'm Saif, a Systems and Biomedical Engineering Student at Cairo University. I'm interested in Deep Learning, Science, and Software. At the moment I'm focusing on DL research and engineering and their application in medicine \n"
-    bio2: "Currently, I'm undergraduate researcher at RiSH, working on Conformal Prediction (CP) for Deep Learning models."
+    bio: "I'm Saif, a Systems and Biomedical Engineering student at Cairo University. I'm interested in Deep Learning, Science, and Software. At the moment I'm focusing on DL research and engineering and their application in medicine."
+    bio2: "Currently, I'm an undergraduate researcher at RiSH, working on Conformal Prediction (CP) for Deep Learning models."
     avatar: "images/profile-photo.jpeg"
     interests:
       - "Deep Learning"
       - "World Models"
       - "Self-Supervised Learning (SSL)"
-      - "Uncertainty Quantification for DL models"
+      - "Uncertainty Quantification for DL "
     education:
       - degree: "BSc in Systems & Biomedical Engineering"
         year: "2027"
@@ -36,6 +36,8 @@ params:
         url: "https://github.com/SaifMohammed22"
       - icon: "linkedin"
         url: "https://linkedin.com/in/saif-mohammed-ali"
+      - icon: "google-scholar"
+        url: "https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"
 
 menu:
   main:
