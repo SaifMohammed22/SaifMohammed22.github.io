@@ -6,5 +6,3 @@ period: "Sep 2024 – Jul 2025"
 weight: 3
 image: "/images/cairo_uni_racing_team_formula_student_logo.svg"
 ---
-
-Developed perception and control systems for the autonomous vehicle platform, working with ROS and sensor fusion for the Formula Student competition.

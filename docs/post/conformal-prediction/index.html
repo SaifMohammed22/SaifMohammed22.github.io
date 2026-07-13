@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Researcher | Saif Mohammed</title>
+  <title>How to get a classification model to say I don&#39;t know? | Saif Mohammed</title>
   <meta name="description" content="Deep Learning Research &amp; Engineering">
   <link rel="icon" type="image/x-icon" href="/images/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,11 +43,26 @@
   <div class="container">
     <a href="javascript:history.back()" class="back-link"><i class="fas fa-arrow-left"></i> Back</a>
     <header class="page-header">
-      <h1>Researcher</h1>
+      <h1>How to get a classification model to say I don&#39;t know?</h1>
+      
+      <div class="page-meta">
+        <span>Saif Mohammed</span>
+        
+        <span class="middot">&middot;</span>
+        <span>Jun 24, 2026</span>
+        
+        
+        <span class="middot">&middot;</span>
+        <span>1 min read</span>
+        
+      </div>
       
     </header>
     <div class="page-content">
-      <p>Joined the <a href="https://risingsh.github.io/website/">RiSH</a> initiative as an undergraduate researcher.</p>
+      <p>Salam!</p>
+<p>There is a saying that Egyptian people always say about themselves: &ldquo;An egyptian never says I don&rsquo;t know&rdquo;. If you asked an egyptian person about anything, quantum physics for example, probably he will think and try to answer even if he don&rsquo;t know what that is. The same thing goes with deep learning models, they tend to give you answers even if they are not sure about it, which is not good at all, especially in critical domains like: medicine and finance. Imagine a classification model that diagnose a disease, if the model got an image which is unfamiliar with it (we say out-of-distribution (OOD)) or a noisy one, it will give you the disease with the highest probability even if this probability is 50% which means that the model isn&rsquo;t confidant or <strong>uncertain</strong> about this prediction.</p>
+<p>Here comes the role of conformal prediction: to calibrate the model so that it will be more robust and trustworthy.</p>
+<p>During my time at RiSH, I&rsquo;ve been reading and working with CP, so today I will share my thoughts on it and build a classification model and add a CP layer to it to see what will change.</p>
 
     </div>
   </div>

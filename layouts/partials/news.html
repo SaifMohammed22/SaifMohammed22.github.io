@@ -4,18 +4,12 @@
       <h2 class="section-heading">Recent News</h2>
     </div>
     <div class="news-list">
-      {{ $news := where .Site.RegularPages "Section" "news" }}
-      {{ range first 5 $news }}
+      {{ range where .Site.RegularPages "Section" "news" }}
       <div class="news-item">
         <span class="news-date">{{ .Params.date_label }}</span>
         <span class="news-text">{{ .Content }}</span>
       </div>
       {{ end }}
     </div>
-    {{ if gt (len $news) 5 }}
-    <div class="see-all">
-      <a href="/news/">See all <i class="fas fa-angle-right"></i></a>
-    </div>
-    {{ end }}
   </div>
 </section>

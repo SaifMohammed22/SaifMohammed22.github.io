@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Posts on Saif Mohammed</title>
-		<link>http://localhost:1313/post/</link>
-		<description>Recent content in Posts on Saif Mohammed</description>
+		<title>Conformal Prediction on Saif Mohammed</title>
+		<link>http://localhost:1313/tags/conformal-prediction/</link>
+		<description>Recent content in Conformal Prediction on Saif Mohammed</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,20 +12,13 @@
 		
 			<lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/tags/conformal-prediction/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>How to get a classification model to say I don&#39;t know?</title>
 				<link>http://localhost:1313/post/conformal-prediction/</link>
 				<pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/post/conformal-prediction/</guid>
 				<description>Conformal Prediction (CP) is one of the interesting approaches for building robust AI models. Let&amp;rsquo;s see what is it and how to use it with a classification model.</description>
-			</item>
-			<item>
-				<title>Welcome to My Blog</title>
-				<link>http://localhost:1313/post/welcome-to-my-blog/</link>
-				<pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/post/welcome-to-my-blog/</guid>
-				<description>Excited to start sharing my thoughts on AI, Machine Learning, and my journey as an engineering student.</description>
 			</item>
 	</channel>
 </rss>

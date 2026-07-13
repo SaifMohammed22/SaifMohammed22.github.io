@@ -18,7 +18,7 @@
 				<link>http://localhost:1313/news/news-6/</link>
 				<pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/news/news-6/</guid>
-				<description>&lt;p&gt;Joined the &lt;a href=&#34;https://risingsh.github.io/website/&#34;&gt;RiSH&lt;/a&gt; initiative to research deep learning for medical applications.&lt;/p&gt;</description>
+				<description>&lt;p&gt;Joined the &lt;a href=&#34;https://risingsh.github.io/website/&#34;&gt;RiSH&lt;/a&gt; initiative as an undergraduate researcher.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Seq2Seq Model from Scratch</title>
@@ -88,7 +88,7 @@
 				<link>http://localhost:1313/experience/curt/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/experience/curt/</guid>
-				<description>&lt;p&gt;Developed perception and control systems for the autonomous vehicle platform, working with ROS and sensor fusion for the Formula Student competition.&lt;/p&gt;</description>
+				<description></description>
 			</item>
 			<item>
 				<title>Keras PR Merged</title>

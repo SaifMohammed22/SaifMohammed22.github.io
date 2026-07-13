@@ -5,4 +5,4 @@ date_label: "[2026.04]"
 weight: 1
 ---
 
-Joined the [RiSH](https://risingsh.github.io/website/) initiative to research deep learning for medical applications.
+Joined the [RiSH](https://risingsh.github.io/website/) initiative as an undergraduate researcher.
