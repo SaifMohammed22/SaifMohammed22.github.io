@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Deep Learning on Saif Mohammed</title>
-		<link>http://localhost:1313/tags/deep-learning/</link>
+		<link>https://saifmohammed22.github.io/tags/deep-learning/</link>
 		<description>Recent content in Deep Learning on Saif Mohammed</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,26 +12,26 @@
 		
 			<lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://saifmohammed22.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Seq2Seq Model from Scratch</title>
-				<link>http://localhost:1313/project/seq2seq/</link>
+				<link>https://saifmohammed22.github.io/project/seq2seq/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/project/seq2seq/</guid>
+				<guid>https://saifmohammed22.github.io/project/seq2seq/</guid>
 				<description>&lt;p&gt;Implemented a sequence-to-sequence translation system with a focus on preprocessing, training stability, and inference speed.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Alzheimer&#39;s Disease Modeling with PINNs</title>
-				<link>http://localhost:1313/project/alzheimers-pinn/</link>
+				<link>https://saifmohammed22.github.io/project/alzheimers-pinn/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/project/alzheimers-pinn/</guid>
+				<guid>https://saifmohammed22.github.io/project/alzheimers-pinn/</guid>
 				<description>&lt;p&gt;Built physics-informed neural network experiments to explore disease progression and interpretable reaction terms using PDEs and symbolic regression.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>How to get a classification model to say I don&#39;t know?</title>
-				<link>http://localhost:1313/post/conformal-prediction/</link>
+				<link>https://saifmohammed22.github.io/post/conformal-prediction/</link>
 				<pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/post/conformal-prediction/</guid>
+				<guid>https://saifmohammed22.github.io/post/conformal-prediction/</guid>
 				<description>Conformal Prediction (CP) is one of the interesting approaches for building robust AI models. Let&amp;rsquo;s see what is it and how to use it with a classification model.</description>
 			</item>
 	</channel>

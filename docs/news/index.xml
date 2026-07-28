@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>News on Saif Mohammed</title>
-		<link>http://localhost:1313/news/</link>
+		<link>https://saifmohammed22.github.io/news/</link>
 		<description>Recent content in News on Saif Mohammed</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,54 +12,54 @@
 		
 			<lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://saifmohammed22.github.io/news/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Researcher</title>
-				<link>http://localhost:1313/news/news-6/</link>
+				<link>https://saifmohammed22.github.io/news/news-6/</link>
 				<pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/news/news-6/</guid>
-				<description>&lt;p&gt;Joined the &lt;a href=&#34;https://risingsh.github.io/website/&#34;&gt;RiSH&lt;/a&gt; initiative as an undergraduate researcher.&lt;/p&gt;</description>
+				<guid>https://saifmohammed22.github.io/news/news-6/</guid>
+				<description>&lt;p&gt;Joined the &lt;a href=&#34;https://risingsh.github.io/website/&#34;&gt;RiSH&lt;/a&gt; initiative as an undergraduate researcher, focusing on Conformal Prediction for World Models.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Research Assistant</title>
-				<link>http://localhost:1313/news/news-1/</link>
+				<link>https://saifmohammed22.github.io/news/news-1/</link>
 				<pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/news/news-1/</guid>
+				<guid>https://saifmohammed22.github.io/news/news-1/</guid>
 				<description>&lt;p&gt;Started my role as an undergraduate research assistant at &lt;strong&gt;Cairo University&lt;/strong&gt;, working on longitudinal MRI lesion tracking and exploring state-of-the-art deep learning models for lesion segmentation and tracking.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>IEEE EMBS CUSB</title>
-				<link>http://localhost:1313/news/news-7/</link>
+				<link>https://saifmohammed22.github.io/news/news-7/</link>
 				<pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/news/news-7/</guid>
+				<guid>https://saifmohammed22.github.io/news/news-7/</guid>
 				<description>&lt;p&gt;Joined &lt;a href=&#34;https://edu.ieee.org/eg-cu-embs/&#34;&gt;IEEE EMBS CUSB&lt;/a&gt; as Head of the AI committee.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Siemens EDA Internship</title>
-				<link>http://localhost:1313/news/news-2/</link>
+				<link>https://saifmohammed22.github.io/news/news-2/</link>
 				<pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/news/news-2/</guid>
+				<guid>https://saifmohammed22.github.io/news/news-2/</guid>
 				<description>&lt;p&gt;Started my AI developer internship at &lt;a href=&#34;https://www.siemens.com/en-us/company/electronic-design-automation/&#34;&gt;Siemens EDA&lt;/a&gt;, building LLM-assisted features.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Keras PR Merged</title>
-				<link>http://localhost:1313/news/news-3/</link>
+				<link>https://saifmohammed22.github.io/news/news-3/</link>
 				<pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/news/news-3/</guid>
+				<guid>https://saifmohammed22.github.io/news/news-3/</guid>
 				<description>&lt;p&gt;My Keras OpenVINO contribution adding &lt;code&gt;numpy.dot&lt;/code&gt; support was merged upstream.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Undergraduate Engineering Mathematics Research Forum</title>
-				<link>http://localhost:1313/news/news-5/</link>
+				<link>https://saifmohammed22.github.io/news/news-5/</link>
 				<pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/news/news-5/</guid>
+				<guid>https://saifmohammed22.github.io/news/news-5/</guid>
 				<description>&lt;p&gt;We got 4th Place in the Undergraduate Engineering Mathematics Research Forum at&#xA;Cairo University&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>NASA Space Apps Cairo</title>
-				<link>http://localhost:1313/news/news-4/</link>
+				<link>https://saifmohammed22.github.io/news/news-4/</link>
 				<pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/news/news-4/</guid>
+				<guid>https://saifmohammed22.github.io/news/news-4/</guid>
 				<description>&lt;p&gt;We won the NASA Space Apps Cairo Hackathon and were nominated for the Global competition.&lt;/p&gt;</description>
 			</item>
 	</channel>

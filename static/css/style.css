@@ -376,8 +376,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  max-height: 200px;
-  overflow-y: auto;
 }
 
 .news-item {
@@ -396,6 +394,7 @@ header {
 }
 
 .news-text p { display: inline; }
+.news-text p:last-of-type { display: inline; }
 .news-text a { font-weight: 500; }
 
 /* Projects Section
@@ -542,6 +541,7 @@ header {
 }
 
 .post-title a { transition: color 0.2s; }
+.post-title a:hover { color: var(--accent); }
 
 .post-summary {
   font-size: 0.88rem;
@@ -583,21 +583,56 @@ header {
 
 .contact-content p { margin-bottom: 16px; }
 
-.contact-list { list-style: none; }
+.contact-cta { margin-top: 8px; }
 
-.contact-list li {
-  margin-bottom: 8px;
-  display: flex;
+.contact-email-btn {
+  display: inline-flex;
   align-items: center;
   gap: 8px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--bg-card);
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  box-shadow: var(--shadow-sm);
 }
 
-.contact-list li i { color: var(--text-muted); width: 16px; }
-.contact-list li a { font-weight: 500; }
-.contact-list li a:hover { color: var(--accent); }
+.contact-email-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  box-shadow: var(--shadow-md);
+}
 
 /* See All Link
    ========================================== */
+/* CV Download
+   ========================================== */
+.cv-download { margin-top: 16px; }
+
+.cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  box-shadow: var(--shadow-sm);
+}
+
+.cv-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  box-shadow: var(--shadow-md);
+}
+
 .see-all { margin-top: 14px; }
 
 .see-all a {

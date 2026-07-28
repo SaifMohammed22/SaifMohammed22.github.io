@@ -7,4 +7,4 @@ weight: 1
 image: "/images/rish.jpeg"
 ---
 
-Working on Conformal Prediction for Deep Learning models (e.g., World Models) for robust AI models in the medical field.
+Researching Conformal Prediction for World Models to enable robust uncertainty quantification in sequential decision-making.

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Saif Mohammed</title>
-		<link>http://localhost:1313/tags/</link>
+		<link>https://saifmohammed22.github.io/tags/</link>
 		<description>Recent content in Tags on Saif Mohammed</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,61 +12,61 @@
 		
 			<lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://saifmohammed22.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Conformal Prediction</title>
-				<link>http://localhost:1313/tags/conformal-prediction/</link>
+				<link>https://saifmohammed22.github.io/tags/conformal-prediction/</link>
 				<pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/conformal-prediction/</guid>
+				<guid>https://saifmohammed22.github.io/tags/conformal-prediction/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Deep Learning</title>
-				<link>http://localhost:1313/tags/deep-learning/</link>
+				<link>https://saifmohammed22.github.io/tags/deep-learning/</link>
 				<pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/deep-learning/</guid>
+				<guid>https://saifmohammed22.github.io/tags/deep-learning/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Introduction</title>
-				<link>http://localhost:1313/tags/introduction/</link>
+				<link>https://saifmohammed22.github.io/tags/introduction/</link>
 				<pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/introduction/</guid>
+				<guid>https://saifmohammed22.github.io/tags/introduction/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Personal</title>
-				<link>http://localhost:1313/tags/personal/</link>
+				<link>https://saifmohammed22.github.io/tags/personal/</link>
 				<pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/personal/</guid>
+				<guid>https://saifmohammed22.github.io/tags/personal/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>NLP</title>
-				<link>http://localhost:1313/tags/nlp/</link>
+				<link>https://saifmohammed22.github.io/tags/nlp/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/nlp/</guid>
+				<guid>https://saifmohammed22.github.io/tags/nlp/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Open Source</title>
-				<link>http://localhost:1313/tags/open-source/</link>
+				<link>https://saifmohammed22.github.io/tags/open-source/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/open-source/</guid>
+				<guid>https://saifmohammed22.github.io/tags/open-source/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Physics-Informed ML</title>
-				<link>http://localhost:1313/tags/physics-informed-ml/</link>
+				<link>https://saifmohammed22.github.io/tags/physics-informed-ml/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/physics-informed-ml/</guid>
+				<guid>https://saifmohammed22.github.io/tags/physics-informed-ml/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Python</title>
-				<link>http://localhost:1313/tags/python/</link>
+				<link>https://saifmohammed22.github.io/tags/python/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/python/</guid>
+				<guid>https://saifmohammed22.github.io/tags/python/</guid>
 				<description></description>
 			</item>
 	</channel>

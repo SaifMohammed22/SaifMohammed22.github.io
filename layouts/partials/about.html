@@ -9,9 +9,16 @@
           </div>
           <h1 class="avatar-name">{{ .Site.Params.author.name }}</h1>
           <div class="avatar-role">{{ .Site.Params.author.role }}</div>
+          {{ if .Site.Params.author.cv }}
+          <div class="cv-download">
+            <a href="{{ .Site.Params.author.cv }}" class="cv-btn" target="_blank" rel="noopener">
+              <i class="fas fa-file-pdf"></i> CV
+            </a>
+          </div>
+          {{ end }}
         </div>
         <div class="about-text">
-          <h2 class="about-heading">Salam!</h2>
+          <h2 class="about-heading">Hello!</h2>
           <div class="bio">
             <p>{{ .Site.Params.author.bio | safeHTML }}</p>
             <p>{{ .Site.Params.author.bio2 | safeHTML }}</p>

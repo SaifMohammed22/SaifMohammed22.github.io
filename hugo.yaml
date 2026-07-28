@@ -1,7 +1,6 @@
 baseURL: "https://saifmohammed22.github.io"
 locale: "en-us"
 title: "Saif Mohammed"
-paginaged: false
 enableRobotsTXT: true
 publishDir: "docs"
 cleanDestinationDir: true
@@ -17,16 +16,16 @@ params:
   author:
     name: "Saif Mohammed"
     role: "Deep Learning Research & Engineering"
-    bio: "I'm Saif, a Systems and Biomedical Engineering student at Cairo University. I'm interested in deep learning, science, and software.
-          Right now, I'm focusing on deep learning research, engineering, and their applications in medicine."
-    bio2: "Previously, I was an AI intern at <a href=\"https://www.siemens.com/en-us/company/about/siemens-egypt/\">Siemens</a>. I later became an undergraduate research assistant at Cairo University under the the supervision of Dr. <a href=\"https://scholar.google.com/citations?user=y_8D7KEAAAAJ&hl=en\">Meena M. Makary</a>, where I worked on lesion tracking and labeling."
-    bio3: "I'm currently an undergraduate researcher at <a href=\"https://risingsh.github.io/website/\">RiSH</a> under the supervision of Dr. <a href=\"https://www.jfayyad.com/\">Jamil Fayyad</a>, working on Conformal Prediction (CP) for deep learning models in the medical field."
+    cv: "/files/cv.pdf"
+    bio: "I'm Saif, a Systems & Biomedical Engineering student at Cairo University focused on uncertainty quantification and self-supervised learning for medical AI. My work spans conformal prediction and world models."
+    bio2: "Previously, I was an AI intern at <a href=\"https://www.siemens.com/en-us/company/about/siemens-egypt/\">Siemens</a> and later an undergraduate research assistant at Cairo University with Dr. <a href=\"https://scholar.google.com/citations?user=y_8D7KEAAAAJ&hl=en\">Meena M. Makary</a>, working on lesion tracking and labeling."
+    bio3: "I'm currently an undergraduate researcher at <a href=\"https://risingsh.github.io/website/\">RiSH</a> with Dr. <a href=\"https://www.jfayyad.com/\">Jamil Fayyad</a>, researching Conformal Prediction for World Models."
     avatar: "images/profile-photo.jpeg"
     interests:
       - "Deep Learning"
       - "World Models"
       - "Self-Supervised Learning (SSL)"
-      - "Uncertainty Quantification for DL models"
+      - "Uncertainty Quantification"
     education:
       - degree: "BSc in Systems & Biomedical Engineering"
         year: "2027"
@@ -53,9 +52,6 @@ menu:
     - name: "Projects"
       url: "#projects"
       weight: 4
-    - name: "Writing"
-      url: "#posts"
-      weight: 5
     - name: "Contact"
       url: "#contact"
       weight: 6
