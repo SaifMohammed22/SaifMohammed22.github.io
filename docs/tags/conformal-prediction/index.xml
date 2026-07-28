@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Conformal Prediction on Saif Mohammed</title>
-		<link>https://saifmohammed22.github.io/tags/conformal-prediction/</link>
+		<link>http://localhost:38917/tags/conformal-prediction/</link>
 		<description>Recent content in Conformal Prediction on Saif Mohammed</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://saifmohammed22.github.io/tags/conformal-prediction/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:38917/tags/conformal-prediction/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>How to get a classification model to say I don&#39;t know?</title>
-				<link>https://saifmohammed22.github.io/post/conformal-prediction/</link>
+				<link>http://localhost:38917/post/conformal-prediction/</link>
 				<pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://saifmohammed22.github.io/post/conformal-prediction/</guid>
+				<guid>http://localhost:38917/post/conformal-prediction/</guid>
 				<description>Conformal Prediction (CP) is one of the interesting approaches for building robust AI models. Let&amp;rsquo;s see what is it and how to use it with a classification model.</description>
 			</item>
 	</channel>
