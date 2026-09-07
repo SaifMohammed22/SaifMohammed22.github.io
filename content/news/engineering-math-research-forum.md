@@ -6,4 +6,4 @@ weight: 5
 ---
 
 We got 4th Place in the Undergraduate Engineering Mathematics Research Forum at
-Cairo University
+Cairo University!

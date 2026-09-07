@@ -4,7 +4,7 @@ tags: ["Deep Learning", "Physics-Informed ML", "Python"]
 tech: "Python, PyTorch, PDEs"
 external_link: "https://github.com/SaifMohammed22/Mind-Code.git"
 code_link: "https://github.com/SaifMohammed22/Mind-Code.git"
-weight: 3
+weight: 5
 image: "/images/PINN.png"
 ---
 

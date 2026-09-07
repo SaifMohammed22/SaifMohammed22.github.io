@@ -141,7 +141,7 @@
       
       <div class="news-item">
         <span class="news-date">[2026.04]</span>
-        <span class="news-text"><p>Joined the <a href="https://risingsh.github.io/website/">RiSH</a> initiative as an undergraduate researcher, focusing on Conformal Prediction for World Models.</p>
+        <span class="news-text"><p>Joined the <a href="https://risingsh.github.io/website/">RiSH</a> initiative as an undergraduate researcher, focusing on studying World Models with distribution shifts.</p>
 </span>
       </div>
       
@@ -159,7 +159,7 @@
       
       <div class="news-item">
         <span class="news-date">[2025.07]</span>
-        <span class="news-text"><p>Started my AI developer internship at <a href="https://www.siemens.com/en-us/company/electronic-design-automation/">Siemens EDA</a>, building LLM-assisted features.</p>
+        <span class="news-text"><p>Started my R&amp;D AI internship at <a href="https://www.siemens.com/en-us/company/electronic-design-automation/">Siemens EDA</a>, building LLM-assisted features.</p>
 </span>
       </div>
       
@@ -172,13 +172,13 @@
       <div class="news-item">
         <span class="news-date">[2024.12]</span>
         <span class="news-text"><p>We got 4th Place in the Undergraduate Engineering Mathematics Research Forum at
-Cairo University</p>
+Cairo University!</p>
 </span>
       </div>
       
       <div class="news-item">
         <span class="news-date">[2024.10]</span>
-        <span class="news-text"><p>We won the NASA Space Apps Cairo Hackathon and were nominated for the Global competition.</p>
+        <span class="news-text"><p>We won the NASA Space Apps Cairo Hackathon and were nominated for the Global competition!</p>
 </span>
       </div>
       
@@ -298,6 +298,22 @@ Cairo University</p>
         
           
         
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
       
         
           
@@ -307,8 +323,14 @@ Cairo University</p>
           
         
       
+      
+      <button class="filter-btn" data-filter="computer-vision">Computer Vision</button>
       
       <button class="filter-btn" data-filter="deep-learning">Deep Learning</button>
+      
+      <button class="filter-btn" data-filter="world-models">World Models</button>
+      
+      <button class="filter-btn" data-filter="pytorch">PyTorch</button>
       
       <button class="filter-btn" data-filter="nlp">NLP</button>
       
@@ -320,6 +342,58 @@ Cairo University</p>
       
     </div>
     <div class="projects-grid" id="projects-grid">
+      
+      <article class="project-card" data-tags="computer-vision deep-learning world-models ">
+        <div class="project-image">
+          
+          <img src="/images/ego4d.png" alt="Ego-Curation" loading="lazy">
+          
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">
+            <a href="https://github.com/Silicosphere/Ego-Curation.git" target="_blank">
+            Ego-Curation
+            <i class="fas fa-external-link-alt" style="font-size:0.75rem;color:var(--text-muted);margin-left:4px;"></i></a>
+          </h3>
+          <div class="project-desc"><p>Built a pipeline that curates egocentric video datasets (e.g., Ego4D) using V-JEPA 2 prediction error to surface the most surprising segments of each video.</p>
+</div>
+          
+          <div class="project-tech">Python, PyTorch, V-JEPA, Ego4D</div>
+          
+          <div class="project-links">
+            
+            <a href="https://github.com/Silicosphere/Ego-Curation.git" class="btn-project" target="_blank"><i class="fab fa-github"></i> Code</a>
+            
+            
+          </div>
+        </div>
+      </article>
+      
+      <article class="project-card" data-tags="deep-learning computer-vision pytorch ">
+        <div class="project-image">
+          
+          <img src="/images/resnet.png" alt="RobustNet" loading="lazy">
+          
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">
+            <a href="https://github.com/SaifMohammed22/RobustNet.git" target="_blank">
+            RobustNet
+            <i class="fas fa-external-link-alt" style="font-size:0.75rem;color:var(--text-muted);margin-left:4px;"></i></a>
+          </h3>
+          <div class="project-desc"><p>Implemented a ResNet from scratch using best-practice training techniques, then integrated conformal prediction at inference to output a prediction set rather than a single label—for more robust and trustworthy predictions.</p>
+</div>
+          
+          <div class="project-tech">Python, PyTorch, ResNet, Conformal Prediction</div>
+          
+          <div class="project-links">
+            
+            <a href="https://github.com/SaifMohammed22/RobustNet.git" class="btn-project" target="_blank"><i class="fab fa-github"></i> Code</a>
+            
+            
+          </div>
+        </div>
+      </article>
       
       <article class="project-card" data-tags="deep-learning nlp python ">
         <div class="project-image">

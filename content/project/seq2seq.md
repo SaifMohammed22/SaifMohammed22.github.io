@@ -4,7 +4,7 @@ tags: ["Deep Learning", "NLP", "Python"]
 tech: "Python, PyTorch, LSTM"
 external_link: "https://github.com/SaifMohammed22/seq2seq-model-implementation.git"
 code_link: "https://github.com/SaifMohammed22/seq2seq-model-implementation.git"
-weight: 1
+weight: 3
 image: "/images/seq2seq.png"
 ---
 
