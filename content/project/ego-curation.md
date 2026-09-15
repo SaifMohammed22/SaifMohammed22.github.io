@@ -8,4 +8,4 @@ weight: 1
 image: "/images/ego4d.png"
 ---
 
-Built a pipeline that curates egocentric video datasets (e.g., Ego4D) using V-JEPA 2 prediction error to surface the most surprising segments of each video.
+Building a pipeline that curates egocentric video datasets (e.g., Ego4D) using V-JEPA 2.1 prediction error to surface the most surprising segments of each video.

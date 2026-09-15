@@ -25,7 +25,7 @@
 				<link>http://localhost:1313/project/ego-curation/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/project/ego-curation/</guid>
-				<description>&lt;p&gt;Built a pipeline that curates egocentric video datasets (e.g., Ego4D) using V-JEPA 2 prediction error to surface the most surprising segments of each video.&lt;/p&gt;</description>
+				<description>&lt;p&gt;Building a pipeline that curates egocentric video datasets (e.g., Ego4D) using V-JEPA 2.1 prediction error to surface the most surprising segments of each video.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Undergraduate Researcher</title>
