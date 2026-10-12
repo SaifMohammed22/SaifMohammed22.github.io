@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>World Models on Saif Mohammed</title>
-		<link>http://localhost:1313/tags/world-models/</link>
+		<link>http://localhost:41379/tags/world-models/</link>
 		<description>Recent content in World Models on Saif Mohammed</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,13 +10,13 @@
 		
 		
 		
-			<atom:link href="http://localhost:1313/tags/world-models/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:41379/tags/world-models/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Ego-Curation</title>
-				<link>http://localhost:1313/project/ego-curation/</link>
+				<link>http://localhost:41379/project/ego-curation/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/project/ego-curation/</guid>
-				<description>&lt;p&gt;Built a pipeline that curates egocentric video datasets (e.g., Ego4D) using V-JEPA 2 prediction error to surface the most surprising segments of each video.&lt;/p&gt;</description>
+				<guid>http://localhost:41379/project/ego-curation/</guid>
+				<description>&lt;p&gt;Building a pipeline that curates egocentric video datasets (e.g., Ego4D) using V-JEPA 2.1 prediction error to surface the most surprising segments of each video.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

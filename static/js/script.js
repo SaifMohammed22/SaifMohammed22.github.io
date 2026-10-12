@@ -11,15 +11,27 @@
   }
 })();
 
-// Smooth scrolling
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+// Smooth scrolling (works from homepage and sub-pages like /post/...)
+document.querySelectorAll('a[href*="#"]').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     const href = this.getAttribute('href');
-    if (href === '#') return;
-    e.preventDefault();
-    const target = document.querySelector(href);
+    if (!href || href === '#' || href.startsWith('javascript:')) return;
+    const hashIndex = href.indexOf('#');
+    if (hashIndex === -1) return;
+    const linkPath = href.slice(0, hashIndex) || '/';
+    const hash = href.slice(hashIndex);
+    if (hash.length <= 1) return;
+    // Only smooth-scroll if the link targets the current page.
+    // From a blog post, "/#about" navigates back to the homepage instead.
+    const samePage =
+      linkPath === '/' && (window.location.pathname === '/' || window.location.pathname === '/index.html') ||
+      linkPath === window.location.pathname;
+    if (!samePage) return; // let the browser navigate to "/#..."
+    const target = document.querySelector(hash);
     if (target) {
+      e.preventDefault();
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      history.replaceState(null, '', hash);
     }
   });
 });
@@ -48,10 +60,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 })();
 
-// Active nav highlight
+// Active nav highlight (homepage only)
 (function() {
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-links a');
+  if (!sections.length || !navLinks.length) return;
 
   window.addEventListener('scroll', () => {
     let current = '';

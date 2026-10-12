@@ -2,9 +2,25 @@ baseURL: "https://saifmohammed22.github.io/"
 locale: "en-us"
 title: "Saif Mohammed"
 enableRobotsTXT: true
+buildFuture: true
 publishDir: "docs"
 cleanDestinationDir: true
 disableLiveReload: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ["\\[", "\\]"]
+            - ["$$", "$$"]
+          inline:
+            - ["\\(", "\\)"]
+            - ["$", "$"]
 
 author:
   name: "Saif Mohammed"
@@ -43,17 +59,20 @@ params:
 menu:
   main:
     - name: "About"
-      url: "#about"
+      url: "/#about"
       weight: 1
-    - name: "Experience"
-      url: "#experience"
-      weight: 2
     - name: "News"
-      url: "#news"
+      url: "/#news"
+      weight: 2
+    - name: "Experience"
+      url: "/#experience"
       weight: 3
     - name: "Projects"
-      url: "#projects"
+      url: "/#projects"
       weight: 4
+    - name: "Posts"
+      url: "/#posts"
+      weight: 5
     - name: "Contact"
-      url: "#contact"
+      url: "/#contact"
       weight: 6

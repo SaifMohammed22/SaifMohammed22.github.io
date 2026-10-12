@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Deep Learning on Saif Mohammed</title>
-		<link>http://localhost:1313/tags/deep-learning/</link>
+		<link>http://localhost:41379/tags/deep-learning/</link>
 		<description>Recent content in Deep Learning on Saif Mohammed</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,43 +10,43 @@
 		
 		
 		
-			<lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:41379/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Ego-Curation</title>
-				<link>http://localhost:1313/project/ego-curation/</link>
+				<link>http://localhost:41379/project/ego-curation/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/project/ego-curation/</guid>
-				<description>&lt;p&gt;Built a pipeline that curates egocentric video datasets (e.g., Ego4D) using V-JEPA 2 prediction error to surface the most surprising segments of each video.&lt;/p&gt;</description>
+				<guid>http://localhost:41379/project/ego-curation/</guid>
+				<description>&lt;p&gt;Building a pipeline that curates egocentric video datasets (e.g., Ego4D) using V-JEPA 2.1 prediction error to surface the most surprising segments of each video.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>RobustNet</title>
-				<link>http://localhost:1313/project/robustnet/</link>
+				<link>http://localhost:41379/project/robustnet/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/project/robustnet/</guid>
+				<guid>http://localhost:41379/project/robustnet/</guid>
 				<description>&lt;p&gt;Implemented a ResNet from scratch using best-practice training techniques, then integrated conformal prediction at inference to output a prediction set rather than a single label—for more robust and trustworthy predictions.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Seq2Seq Model from Scratch</title>
-				<link>http://localhost:1313/project/seq2seq/</link>
+				<link>http://localhost:41379/project/seq2seq/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/project/seq2seq/</guid>
+				<guid>http://localhost:41379/project/seq2seq/</guid>
 				<description>&lt;p&gt;Implemented a sequence-to-sequence translation system with a focus on preprocessing, training stability, and inference speed.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Alzheimer&#39;s Disease Modeling with PINNs</title>
-				<link>http://localhost:1313/project/alzheimers-pinn/</link>
+				<link>http://localhost:41379/project/alzheimers-pinn/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/project/alzheimers-pinn/</guid>
+				<guid>http://localhost:41379/project/alzheimers-pinn/</guid>
 				<description>&lt;p&gt;Built physics-informed neural network experiments to explore disease progression and interpretable reaction terms using PDEs and symbolic regression.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>How to get a classification model to say I don&#39;t know?</title>
-				<link>http://localhost:1313/post/conformal-prediction/</link>
-				<pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/post/conformal-prediction/</guid>
-				<description>Conformal Prediction (CP) is one of the interesting approaches for building robust AI models. Let&amp;rsquo;s see what is it and how to use it with a classification model.</description>
+				<title>How to get a classification model to say &#34;I don&#39;t know&#34;?</title>
+				<link>http://localhost:41379/post/conformal-prediction/</link>
+				<pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:41379/post/conformal-prediction/</guid>
+				<description>Conformal Prediction (CP) is one of the most interesting approaches for building trustworthy AI models. Let&amp;rsquo;s see what it is and how to use it with a classification model.</description>
 			</item>
 	</channel>
 </rss>

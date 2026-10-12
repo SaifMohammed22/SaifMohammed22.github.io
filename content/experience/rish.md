@@ -7,4 +7,4 @@ weight: 1
 image: "/images/rish.jpeg"
 ---
 
-Researching Conformal Prediction for World Models to enable robust uncertainty quantification in sequential decision-making.
+Researching Conformal Prediction for Medical World Models to enable robust uncertainty quantification.

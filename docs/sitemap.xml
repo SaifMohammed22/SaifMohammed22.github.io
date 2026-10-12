@@ -3,93 +3,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/news/rish-researcher-world-models/</loc>
+    <loc>http://localhost:41379/news/rish-researcher-world-models/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/ego-curation/</loc>
+    <loc>http://localhost:41379/project/ego-curation/</loc>
   </url><url>
-    <loc>http://localhost:1313/experience/rish/</loc>
+    <loc>http://localhost:41379/experience/rish/</loc>
   </url><url>
-    <loc>http://localhost:1313/news/research-assistant-cairo-university/</loc>
+    <loc>http://localhost:41379/news/research-assistant-cairo-university/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/ieee-embs-cusb-ai-committee/</loc>
+    <loc>http://localhost:41379/news/ieee-embs-cusb-ai-committee/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/robustnet/</loc>
+    <loc>http://localhost:41379/project/robustnet/</loc>
   </url><url>
-    <loc>http://localhost:1313/experience/cairo-university-research-assistant/</loc>
+    <loc>http://localhost:41379/experience/cairo-university-research-assistant/</loc>
   </url><url>
-    <loc>http://localhost:1313/news/siemens-eda-internship/</loc>
+    <loc>http://localhost:41379/news/siemens-eda-internship/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/experience/siemens-eda-intern/</loc>
+    <loc>http://localhost:41379/experience/siemens-eda-intern/</loc>
   </url><url>
-    <loc>http://localhost:1313/experience/curt/</loc>
+    <loc>http://localhost:41379/experience/curt/</loc>
   </url><url>
-    <loc>http://localhost:1313/project/seq2seq/</loc>
+    <loc>http://localhost:41379/project/seq2seq/</loc>
   </url><url>
-    <loc>http://localhost:1313/news/keras-openvino-pr-merged/</loc>
+    <loc>http://localhost:41379/news/keras-openvino-pr-merged/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/keras-openvino/</loc>
+    <loc>http://localhost:41379/project/keras-openvino/</loc>
   </url><url>
-    <loc>http://localhost:1313/news/engineering-math-research-forum/</loc>
+    <loc>http://localhost:41379/news/engineering-math-research-forum/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/alzheimers-pinn/</loc>
+    <loc>http://localhost:41379/project/alzheimers-pinn/</loc>
   </url><url>
-    <loc>http://localhost:1313/news/nasa-space-apps-cairo-hackathon/</loc>
+    <loc>http://localhost:41379/news/nasa-space-apps-cairo-hackathon/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/conformal-prediction/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:41379/tags/conformal-prediction/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/deep-learning/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:41379/tags/deep-learning/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/conformal-prediction/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:41379/post/conformal-prediction/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:41379/post/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:41379/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:41379/tags/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/</loc>
+    <loc>http://localhost:41379/news/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/introduction/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:41379/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/personal/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:41379/tags/computer-vision/</loc>
   </url><url>
-    <loc>http://localhost:1313/post/welcome-to-my-blog/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:41379/experience/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:41379/tags/nlp/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/computer-vision/</loc>
+    <loc>http://localhost:41379/tags/open-source/</loc>
   </url><url>
-    <loc>http://localhost:1313/experience/</loc>
+    <loc>http://localhost:41379/tags/physics-informed-ml/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/nlp/</loc>
+    <loc>http://localhost:41379/project/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/open-source/</loc>
+    <loc>http://localhost:41379/tags/python/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/physics-informed-ml/</loc>
+    <loc>http://localhost:41379/tags/pytorch/</loc>
   </url><url>
-    <loc>http://localhost:1313/project/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/pytorch/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/world-models/</loc>
+    <loc>http://localhost:41379/tags/world-models/</loc>
   </url>
 </urlset>
