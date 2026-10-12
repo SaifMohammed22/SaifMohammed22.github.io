@@ -43,13 +43,15 @@ So, what are the steps to get the prediction set $C(X_{test})$?
 
 1. Set aside $n$ labeled samples that the model was **not** trained on. We'll call these the calibration data (the larger $n$ is, the tighter the coverage).
 2. Run a forward pass on the calibration data $\{(X_i, Y_i)\}_{i=1}^n$ to get the model's softmax scores (for multiclass classification) $\hat{f}(X_i)$.
-3. Compute the so-called conformal scores: $s_i = 1 - \hat{f}(X_i)_{Y_i}$ for all $i$, where $\hat{f}(X_i)_{Y_i}$ is the softmax score of the true class. This gives you a set of conformal scores $\{s_1, \dots, s_n\}$ — the lower the score, the better the model agrees with the truth.
+3. Compute the so-called conformal scores: $s_i = 1 - \hat{f}(X_i)_{Y_i}$ for all $i$, where $\hat{f}(X_i)_{Y_i}$ is the softmax score of the true class and sort it. This gives you a set of conformal scores $\{s_1, \dots, s_n\}$ — the lower the score, the better the model agrees with the truth.
 4. Compute $\hat{q}$ as the $\frac{\lceil (n+1)(1 - \alpha) \rceil}{n}$ quantile of $\{s_1, \dots, s_n\}$.
 5. For a new point $X_{new}$, the prediction set is $C(X_{new}) = \{y: \hat{f}(X_{new})_y \geq 1 - \hat{q}\}$, which guarantees $1 - \alpha$ (e.g., 90%) coverage. That is, $Y_{new}$ will fall inside the prediction set at least 90% of the time.
 
-Intuitively, step 5 says: keep every class whose softmax score is high enough, where "high enough" is determined by how wrong the model was on the calibration data.
+Intuitively, step 5 says: keep every class whose softmax score is high enough. 
 
-> Refer to [[1]](#ref-1) section 1 for the full code snippet if you want to see more details.
+An important question is: why do we use $1 - \hat{q}$ in the last step instead of $\hat{q}$? Basically, because $\hat{q}$ was computed over the sorted conformal scores $s_i = 1 - \hat{f}(X_i)_{Y_i}$, so it lives on the *score* scale, not the *probability* scale. We keep every class whose score is at or below $\hat{q}$, i.e. $s_{new}(y) \leq \hat{q}$, which is the same as $1 - \hat{f}(X_{new})_y \leq \hat{q}$. Thus, with a bit of flipping, we get $\hat{f}(X_{new})_y \geq 1 - \hat{q}$, which is exactly the threshold on the softmax scores that we use in step 5.
+
+> Refer to [[1]](#ref-1) section 1 for a code snippet to clear things up.
 
 <p align="center">
   <img src="/images/blog/steps.png" alt="Steps to construct the conformal prediction set" />
@@ -69,9 +71,7 @@ Now you have a prediction set that stays small when the model is sure of its ans
 
 That was a very brief intro to **Conformal Prediction** from my humble point of view and understanding. However, CP holds much more than that, and you can find way more details in the cool [References](#references) below.
 
->Note: This is not educational content by any means. It's just a way to share my understanding with people, as the best way to learn is to ~~teach~~ share your thoughts.
-
->Note: I used AI to help review and polish this post. The ideas and understanding are mine, and any mistakes are too.
+>Note: This is not educational content by any means. It's just a way to share my understanding with people, which might be right or wrong. I believe the best way to learn is to ~~teach~~ share your thoughts.
 
 ## References
 <a id="ref-1"></a>[1] Angelopoulos, Anastasios N., and Stephen Bates. “A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification.” arXiv:2107.07511. Preprint, arXiv, December 7, 2022. https://doi.org/10.48550/arXiv.2107.07511.
