@@ -1,7 +1,7 @@
 ---
 title: "How to get a classification model to say \"I don't know\"?"
 date: 2026-10-13
-summary: "Conformal Prediction (CP) is one of the most interesting approaches for building trustworthy AI models. Let's see what it is and how to use it with a classification model."
+summary: "Conformal Prediction (CP) is one of the most interesting approaches for building trustworthy AI models."
 tags: ["Deep Learning", "Conformal Prediction"]
 author: "Saif Mohammed"
 ---

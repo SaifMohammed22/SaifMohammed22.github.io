@@ -15,8 +15,8 @@
   --bg: #f8f7f5;
   --bg-card: #ffffff;
   --text: #1a1a1a;
-  --text-secondary: #6b6560;
-  --text-muted: #a9a29d;
+  --text-secondary: #514c48;
+  --text-muted: #837c76;
   --accent: #cd5c5c;
   --accent-subtle: #f5e6e6;
   --line: #e8e4e0;
@@ -53,6 +53,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 72px; }
 body {
   font-family: var(--font);
   font-size: 17px;
+  font-weight: 500;
   line-height: 1.7;
   color: var(--text);
   background: var(--bg);
@@ -116,7 +117,7 @@ a:hover { color: var(--accent); }
 .nav-links a {
   color: var(--text-secondary);
   font-size: 0.82rem;
-  font-weight: 450;
+  font-weight: 500;
   padding: 6px 10px;
   border-radius: 6px;
   transition: color 0.2s, background 0.2s;
@@ -424,7 +425,7 @@ a:hover { color: var(--accent); }
   background: var(--bg-card);
   color: var(--text-secondary);
   font-size: 0.82rem;
-  font-weight: 450;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.2s;
   box-shadow: var(--shadow-sm);
