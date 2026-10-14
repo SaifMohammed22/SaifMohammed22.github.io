@@ -4,10 +4,10 @@
       <h2 class="section-heading">Recent News</h2>
     </div>
     <div class="news-list">
-      {{ range where .Site.RegularPages "Section" "news" }}
+      {{ range .Site.Data.news }}
       <div class="news-item">
-        <span class="news-date">{{ .Params.date_label }}</span>
-        <span class="news-text">{{ .Content }}</span>
+        <span class="news-date">{{ .date_label }}</span>
+        <span class="news-text">{{ .body | markdownify }}</span>
       </div>
       {{ end }}
     </div>

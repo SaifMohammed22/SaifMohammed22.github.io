@@ -1,30 +1,48 @@
 # SaifMohammed22.github.io
-This is the source code for my personal portfolio website, showcasing my projects, skills, and blog posts related to Machine Learning, Deep Learning, and AI research.
 
-Link to live site: https://saifmohammed22.github.io
+Source for my personal portfolio website — projects, experience, and blog posts on
+Machine Learning, Deep Learning, and AI research.
 
-Built with [Hugo](https://gohugo.io/).
+Live site: https://saifmohammed22.github.io
 
-## Editing Content
+Built with [Hugo](https://github.com/gohugoio/hugo).
 
-Edit markdown files in `content/`:
+## Structure
 
-- **About/Social**: `hugo.yaml` → `params.author`
-- **Experience**: `content/experience/*.md`
-- **News**: `content/news/*.md`
-- **Publications**: `content/publication/*.md`
-- **Projects**: `content/project/*.md`
-- **Blog Posts**: `content/post/*.md`
-- **Talks**: `content/talk/*.md`
+```
+hugo.yaml                 # site config + about/social/interests/education
+content/post/*.md         # blog posts (markdown)
+data/experience.yaml      # experience entries (homepage section)
+data/news.yaml            # news entries (homepage section)
+data/projects.yaml        # project entries (homepage section)
+layouts/                  # templates and partials
+static/                   # images, CSS, JS, files (copied to build root)
+```
+
+Non-post content lives in `data/*.yaml` — one file per section, instead of one
+markdown file per entry.
+
+## Editing content
+
+- **About / social / interests / education**: `hugo.yaml` → `params.author`
+- **Experience**: `data/experience.yaml`
+- **News**: `data/news.yaml`
+- **Projects**: `data/projects.yaml`
+- **Blog posts**: add a markdown file in `content/post/`
 
 ## Building
 
 ```bash
-hugo
+hugo --minify        # output written to docs/
+hugo server          # local preview at http://localhost:1313
 ```
 
-The static site is output to `docs/` for GitHub Pages.
+`docs/` is build output and is **git-ignored** — never edit or commit it.
 
 ## Deployment
 
-GitHub Pages serves from the `/docs` folder on the main branch.
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the site
+and deploys it to GitHub Pages.
+
+> Repository Settings → Pages → Build and deployment → Source must be set to
+> **GitHub Actions** (not "Deploy from a branch").

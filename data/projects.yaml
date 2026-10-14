@@ -1,0 +1,40 @@
+# Project entries — rendered by layouts/partials/projects.html
+- title: "Ego-Curation"
+  tags: ["Computer Vision", "Deep Learning", "World Models"]
+  tech: "Python, PyTorch, V-JEPA, Ego4D"
+  external_link: "https://github.com/Silicosphere/Ego-Curation.git"
+  code_link: "https://github.com/Silicosphere/Ego-Curation.git"
+  image: "/images/ego4d.png"
+  body: "Building a pipeline that curates egocentric video datasets (e.g., Ego4D) using V-JEPA 2.1 prediction error to surface the most surprising segments of each video."
+
+- title: "RobustNet"
+  tags: ["Deep Learning", "Computer Vision", "PyTorch"]
+  tech: "Python, PyTorch, ResNet, Conformal Prediction"
+  external_link: "https://github.com/SaifMohammed22/RobustNet.git"
+  code_link: "https://github.com/SaifMohammed22/RobustNet.git"
+  image: "/images/resnet.png"
+  body: "Implemented a ResNet from scratch using best-practice training techniques, then integrated conformal prediction at inference to output a prediction set rather than a single label—for more robust and trustworthy predictions."
+
+- title: "Seq2Seq Model from Scratch"
+  tags: ["Deep Learning", "NLP", "Python"]
+  tech: "Python, PyTorch, LSTM"
+  external_link: "https://github.com/SaifMohammed22/seq2seq-model-implementation.git"
+  code_link: "https://github.com/SaifMohammed22/seq2seq-model-implementation.git"
+  image: "/images/seq2seq.png"
+  body: "Implemented a sequence-to-sequence translation system with a focus on preprocessing, training stability, and inference speed."
+
+- title: "Keras OpenVINO Contribution"
+  tags: ["Open Source", "Python"]
+  tech: "Python, Keras, OpenVINO"
+  external_link: "https://github.com/keras-team/keras/pull/20982"
+  code_link: "https://github.com/keras-team/keras/pull/20982"
+  image: "/images/34455048.jpeg"
+  body: "Added support for `numpy.dot` in the Keras OpenVINO backend and contributed the upstream pull request."
+
+- title: "Alzheimer's Disease Modeling with PINNs"
+  tags: ["Deep Learning", "Physics-Informed ML", "Python"]
+  tech: "Python, PyTorch, PDEs"
+  external_link: "https://github.com/SaifMohammed22/Mind-Code.git"
+  code_link: "https://github.com/SaifMohammed22/Mind-Code.git"
+  image: "/images/PINN.png"
+  body: "Built physics-informed neural network experiments to explore disease progression and interpretable reaction terms using PDEs and symbolic regression."

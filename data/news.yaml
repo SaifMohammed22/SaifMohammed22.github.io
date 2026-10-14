@@ -1,0 +1,21 @@
+# News entries — rendered by layouts/partials/news.html
+- date_label: "[2026.04]"
+  body: "Joined the [RiSH](https://risingsh.github.io/website/) initiative as an undergraduate researcher, focusing on studying World Models with distribution shifts."
+
+- date_label: "[2025.12]"
+  body: "Started my role as an undergraduate research assistant at **Cairo University**, working on longitudinal MRI lesion tracking and exploring state-of-the-art deep learning models for lesion segmentation and tracking."
+
+- date_label: "[2025.11]"
+  body: "Joined [IEEE EMBS CUSB](https://edu.ieee.org/eg-cu-embs/) as Head of the AI committee."
+
+- date_label: "[2025.07]"
+  body: "Started my R&D AI internship at [Siemens EDA](https://www.siemens.com/en-us/company/electronic-design-automation/), building LLM-assisted features."
+
+- date_label: "[2025.05]"
+  body: "My Keras OpenVINO contribution adding `numpy.dot` support was merged upstream."
+
+- date_label: "[2024.12]"
+  body: "We got 4th Place in the Undergraduate Engineering Mathematics Research Forum at Cairo University!"
+
+- date_label: "[2024.10]"
+  body: "We won the NASA Space Apps Cairo Hackathon and were nominated for the Global competition!"

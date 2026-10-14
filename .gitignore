@@ -3,3 +3,13 @@
 thumbs.db
 *.log
 node_modules/
+
+# Hugo build output — generated in CI, never committed
+/docs/
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Local React port (kept untracked)
+/web/node_modules/
+/web/dist/

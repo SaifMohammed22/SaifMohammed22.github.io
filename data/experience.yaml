@@ -1,0 +1,28 @@
+# Experience entries — rendered by layouts/partials/experience.html
+- title: "Undergraduate Researcher"
+  company: "RiSH"
+  company_url: "https://risingsh.github.io/website/"
+  period: "Apr 2026 – Present"
+  image: "/images/rish.jpeg"
+  body: "Researching Conformal Prediction for Medical World Models to enable robust uncertainty quantification."
+
+- title: "Undergraduate Research Assistant"
+  company: "Cairo University"
+  company_url: "https://cu.edu.eg/Home"
+  period: "December 2025 – April 2026"
+  image: "/images/cufe3.svg"
+  body: "Worked on longitudinal MRI lesion tracking and registration pipelines for multi-timepoint data, exploring state-of-the-art deep learning approaches for automated segmentation and tracking of lesions."
+
+- title: "AI Developer Intern"
+  company: "Siemens EDA"
+  company_url: "https://www.siemens.com/en-us/company/electronic-design-automation/"
+  period: "July 2025 – August 2025"
+  image: "/images/siemens.svg"
+  body: "Built LLM-assisted feature and prompt pipeline for internal engineering tool as part of the HAV team."
+
+- title: "Autonomous Team Member"
+  company: "Cairo University Racing Team - Formula Student"
+  company_url: "https://www.linkedin.com/company/cairo-university-racing-team-formula-student/"
+  period: "Sep 2024 – Jul 2025"
+  image: "/images/cairo_uni_racing_team_formula_student_logo.svg"
+  body: ""

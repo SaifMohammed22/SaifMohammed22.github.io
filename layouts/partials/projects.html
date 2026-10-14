@@ -4,8 +4,8 @@
     <div class="project-filters" id="project-filters">
       <button class="filter-btn active" data-filter="all">All</button>
       {{ $tags := slice }}
-      {{ range where .Site.RegularPages "Section" "project" }}
-        {{ range .Params.tags }}
+      {{ range .Site.Data.projects }}
+        {{ range .tags }}
           {{ $tags = $tags | append . }}
         {{ end }}
       {{ end }}
@@ -14,11 +14,11 @@
       {{ end }}
     </div>
     <div class="projects-grid" id="projects-grid">
-      {{ range where .Site.RegularPages "Section" "project" }}
-      <article class="project-card" data-tags="{{ range .Params.tags }}{{ . | urlize }} {{ end }}">
+      {{ range .Site.Data.projects }}
+      <article class="project-card" data-tags="{{ range .tags }}{{ . | urlize }} {{ end }}">
         <div class="project-image">
-          {{ if .Params.image }}
-          <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+          {{ if .image }}
+          <img src="{{ .image }}" alt="{{ .title }}" loading="lazy">
           {{ else }}
           <div class="project-image-placeholder">
             <i class="fas fa-code"></i>
@@ -27,20 +27,17 @@
         </div>
         <div class="project-body">
           <h3 class="project-title">
-            {{ if .Params.external_link }}<a href="{{ .Params.external_link }}" target="_blank">{{ end }}
-            {{ .Title }}
-            {{ if .Params.external_link }}<i class="fas fa-external-link-alt" style="font-size:0.75rem;color:var(--text-muted);margin-left:4px;"></i></a>{{ end }}
+            {{ if .external_link }}<a href="{{ .external_link }}" target="_blank">{{ end }}
+            {{ .title }}
+            {{ if .external_link }}<i class="fas fa-external-link-alt" style="font-size:0.75rem;color:var(--text-muted);margin-left:4px;"></i></a>{{ end }}
           </h3>
-          <div class="project-desc">{{ .Content }}</div>
-          {{ if .Params.tech }}
-          <div class="project-tech">{{ .Params.tech }}</div>
+          <div class="project-desc">{{ .body | markdownify }}</div>
+          {{ if .tech }}
+          <div class="project-tech">{{ .tech }}</div>
           {{ end }}
           <div class="project-links">
-            {{ if .Params.code_link }}
-            <a href="{{ .Params.code_link }}" class="btn-project" target="_blank"><i class="fab fa-github"></i> Code</a>
-            {{ end }}
-            {{ if .Params.demo_link }}
-            <a href="{{ .Params.demo_link }}" class="btn-project" target="_blank">Demo</a>
+            {{ if .code_link }}
+            <a href="{{ .code_link }}" class="btn-project" target="_blank"><i class="fab fa-github"></i> Code</a>
             {{ end }}
           </div>
         </div>
