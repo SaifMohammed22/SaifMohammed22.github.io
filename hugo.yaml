@@ -41,7 +41,8 @@ params:
       - "Deep Learning"
       - "World Models"
       - "Self-Supervised Learning (SSL)"
-      - "AI for Science"
+      - "AI in medicine"
+      - "Robot learning"
       - "Uncertainty Quantification"
     education:
       - degree: "BSc in Systems & Biomedical Engineering"
