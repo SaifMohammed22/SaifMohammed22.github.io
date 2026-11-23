@@ -7,7 +7,7 @@ author: "Saif Mohammed"
 ---
 
 <p align="center">
-    <img src="/images/blog/meme1.gif" alt="Model confidently giving wrong answers meme"/>
+    <img src="/images/blog/cp/meme1.gif" alt="Model confidently giving wrong answers meme"/>
 </p>
 
 There's a saying Egyptians always joke about themselves: "An Egyptian never says I don't know." If you asked an Egyptian about anything — quantum physics, for example — he'd probably stop, think, and try to answer even if he has no idea what it is. The same thing goes for deep learning models: they tend to give you an answer even when they're not sure about it, which is not good at all, especially in critical domains like medicine and finance. Imagine a classification model that diagnoses a disease: if it gets an image it's unfamiliar with (we call this out-of-distribution, or OOD) or a noisy one, it will still output the disease with the highest probability — even if that probability is only 50%, which means the model isn't confident, i.e. it is **uncertain** about this prediction. Worse, softmax scores can be high even when the model has no business being confident.
@@ -54,7 +54,7 @@ An important question is: why do we use $1 - \hat{q}$ in the last step instead o
 > Refer to [[1]](#ref-1) section 1 for a code snippet to clear things up.
 
 <p align="center">
-  <img src="/images/blog/steps.png" alt="Steps to construct the conformal prediction set" />
+  <img src="/images/blog/cp/steps.png" alt="Steps to construct the conformal prediction set" />
   <br>
   <em>Source: A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification</em>
 </p>
@@ -62,7 +62,7 @@ An important question is: why do we use $1 - \hat{q}$ in the last step instead o
 Now you have a prediction set that stays small when the model is sure of its answer, and grows (or even comes back empty) as the model becomes more hesitant. This is where the human can step into the loop and save the situation.
 
 <p align="center">
-    <img src="/images/blog/image.png" alt="Conformal prediction sets grow with uncertainty"/>
+    <img src="/images/blog/cp/image.png" alt="Conformal prediction sets grow with uncertainty"/>
     <br>
     <em>Source: A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification</em>
 </p>
